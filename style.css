@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #1f3a93;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+/* Profile Image */
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 15px;
+    border: 5px solid white;
+}
+
+/* Sections */
+section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #1f3a93;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* List Style */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #eef1f7;
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    background-color: #1f3a93;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #162a6a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #1f3a93;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #162a6a;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    section {
+        width: 90%;
+    }
+
+    input, textarea {
+        font-size: 0.9rem;
+    }
+}
